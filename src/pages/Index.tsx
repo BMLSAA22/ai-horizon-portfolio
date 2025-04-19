@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Layout from "@/components/layout/Layout";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import SkillsSection from "@/components/sections/SkillsSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import ResearchSection from "@/components/sections/ResearchSection";
+import ExperienceSection from "@/components/sections/ExperienceSection";
+import ContactSection from "@/components/sections/ContactSection";
+import ScrollToTop from "@/components/ui/ScrollToTop";
+import { useEffect } from "react";
 
 const Index = () => {
+  // Set the dark mode by default for better visual experience
+  useEffect(() => {
+    if (!localStorage.getItem("theme")) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ResearchSection />
+      <ExperienceSection />
+      <ContactSection />
+      <ScrollToTop />
+    </Layout>
   );
 };
 
