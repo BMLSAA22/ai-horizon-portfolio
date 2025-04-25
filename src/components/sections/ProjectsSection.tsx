@@ -21,65 +21,64 @@ const ProjectsSection = () => {
     {
       id: 1,
       title: "AI-Powered Fire Detection System",
-      description: "Real-time wildfire detection using computer vision and edge computing",
+      description: "Edge-optimized deep learning system for real-time wildfire detection",
       image: "bg-gradient-to-br from-red-500/30 to-orange-500/30",
-      tags: ["Computer Vision", "PyTorch", "Jetson Nano", "Edge AI"],
+      tags: ["Computer Vision", "PyTorch", "Jetson Nano", "Edge AI", "TensorRT"],
       demoLink: "#",
       githubLink: "#",
-      docLink: "#",
+      docLink: "https://www.linkedin.com/in/bourahlaamayas/details/projects/1635545889822/single-media-viewer?type=DOCUMENT&profileId=ACoAACu7YMsBiU34CWQjRYks3TRVETuBSP_iIyE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BNM7X4VcHS%2FCJ4mwgxQu9dA%3D%3D",
       details: "Developed a real-time fire detection system using deep learning models optimized for edge devices. The system processes video streams from drones and fixed cameras to detect wildfires in their early stages. Implemented with PyTorch and optimized with TensorRT for deployment on Jetson Nano devices. Achieved 94% detection accuracy with a low false positive rate of 0.02%."
     },
     {
       id: 2,
       title: "Neural Document Understanding",
-      description: "End-to-end document processing pipeline with OCR and NLP",
+      description: "AI system for extracting structured information from unstructured documents",
       image: "bg-gradient-to-br from-blue-500/30 to-indigo-500/30",
-      tags: ["NLP", "OCR", "PyTorch", "Transformers"],
-      demoLink: "#",
-      githubLink: "#",
+      tags: ["NLP", "OCR", "PyTorch", "Transformers", "Document AI"],
+      demoLink: "https://drive.google.com/file/d/1GChvPTcL4GUY79ye9G-FnzumLw3VPhWB/view?usp=drive_link",
       details: "Created an advanced document understanding system that combines OCR, layout analysis, and NLP to extract structured information from unstructured documents. Built using PyTorch and Hugging Face Transformers, the system can process various document types including invoices, receipts, and contracts. Implemented a novel approach to handle document structure that improved information extraction accuracy by 23% compared to baseline methods."
     },
     {
       id: 3,
-      title: "UAV Route Optimization",
-      description: "Graph neural networks for strategic routing in UAV ad hoc networks",
+      title: "Building a chess engine in python",
+      description: "AI-based chess engine built using Python and reinforcement learning techniques",
       image: "bg-gradient-to-br from-tech-purple/30 to-tech-blue/30",
-      tags: ["GNN", "Reinforcement Learning", "TensorFlow", "Python"],
-      githubLink: "#",
-      docLink: "#",
-      details: "Developed a novel routing algorithm for UAV ad hoc networks using graph neural networks and reinforcement learning. The algorithm dynamically adapts to changing network conditions and optimizes for multiple objectives including latency, throughput, and energy consumption. Published in IEEE Transactions on Networking with experimental validation showing 35% improvement in network reliability and 28% reduction in latency compared to state-of-the-art approaches."
+      tags: ["Chess Engine", "AI", "Reinforcement Learning", "Python"],
+      githubLink: "https://github.com/BMLSAA22/chess-engine",
+      details: "Built a basic chess engine in Python leveraging reinforcement learning concepts to simulate intelligent move selection. The engine uses minimax search enhanced with evaluation heuristics and self-play training to improve over time. Offers CLI-based gameplay with move legality and checkmate detection features."
     },
     {
       id: 4,
-      title: "AI Research Assistant",
-      description: "NLP-based tool for academic literature review and synthesis",
+      title: "F1 Dashboard",
+      description: "Interactive dashboard for real-time Formula 1 race analytics",
       image: "bg-gradient-to-br from-green-500/30 to-emerald-500/30",
-      tags: ["NLP", "BERT", "Flask", "ReactJS"],
+      tags: ["Data Visualization", "ReactJS", "Flask", "F1 Analytics"],
       demoLink: "#",
       githubLink: "#",
-      details: "Built an AI-powered research assistant that helps researchers discover, organize, and synthesize academic literature. The system uses BERT-based models for semantic search and summarization, allowing users to quickly find relevant papers and extract key information. Features include automated literature reviews, citation network analysis, and personalized paper recommendations. Used by over 500 researchers across multiple universities."
+      details: "Built a responsive web dashboard that visualizes real-time Formula 1 telemetry data including lap times, speed traps, tire choices, and position tracking. Backend built with Flask, frontend with ReactJS. Integrated APIs and live data feeds for an engaging race analysis experience."
     },
     {
       id: 5,
-      title: "Multi-Agent Simulation Framework",
-      description: "Scalable environment for testing distributed AI algorithms",
+      title: "Protein-protein interaction prediction",
+      description: "Deep learning framework for predicting protein-protein interactions",
       image: "bg-gradient-to-br from-yellow-500/30 to-amber-500/30",
-      tags: ["Multi-Agent Systems", "Reinforcement Learning", "Python", "Ray"],
+      tags: ["Bioinformatics", "GNN", "Protein Modeling", "Python"],
       githubLink: "#",
       docLink: "#",
-      details: "Designed and implemented a scalable simulation framework for multi-agent systems research. The framework supports thousands of concurrent agents and provides tools for implementing and evaluating distributed AI algorithms. Built with Python and Ray for distributed computing, it features customizable environments, visualization tools, and benchmarking utilities. Used in my PhD research to evaluate novel routing algorithms for UAV networks."
+      details: "Developed a graph-based neural network model to predict protein-protein interactions using structural and sequence features. Trained on curated biological datasets and benchmarked against state-of-the-art PPI prediction tools. Used for drug discovery and protein function annotation tasks."
     },
     {
       id: 6,
-      title: "Edge AI Deployment Pipeline",
-      description: "CI/CD pipeline for deploying ML models to edge devices",
+      title: "Agent RL to simulate3D MuJoCo",
+      description: "Reinforcement learning agents trained in 3D MuJoCo environments",
       image: "bg-gradient-to-br from-tech-blue/30 to-cyan-500/30",
-      tags: ["MLOps", "Docker", "Kubernetes", "TensorRT"],
+      tags: ["Reinforcement Learning", "MuJoCo", "Simulation", "Python"],
       demoLink: "#",
       githubLink: "#",
-      details: "Created an end-to-end pipeline for automatically deploying and updating machine learning models on edge devices. The system handles model optimization (including quantization and pruning), packaging, deployment, monitoring, and updates. Implemented using Docker, Kubernetes, and custom deployment tools. Reduced deployment time from days to hours and enabled consistent updates across a fleet of edge devices."
+      details: "Trained reinforcement learning agents to perform locomotion and control tasks in 3D MuJoCo simulations. Implemented policy gradients and PPO algorithms for training. Focused on sim-to-real transfer and fine-tuning policy robustness across dynamic environments."
     },
   ];
+
 
   const openProjectModal = (project: Project) => {
     setActiveProject(project);

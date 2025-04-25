@@ -172,7 +172,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground mb-1">Email Address</h4>
                     <a href="mailto:alex@example.com" className="text-foreground hover:text-primary transition-colors">
-                      alex@example.com
+                      amayasbourahla46@gmail.com
                     </a>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground mb-1">Phone Number</h4>
                     <a href="tel:+1234567890" className="text-foreground hover:text-primary transition-colors">
-                      +1 (234) 567-890
+                      +213 (549) 893-705
                     </a>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground mb-1">Location</h4>
                     <p className="text-foreground">
-                      San Francisco, California
+                     Ain Naadja ,Algiers
                     </p>
                   </div>
                 </div>
@@ -208,7 +208,7 @@ const ContactSection = () => {
               
               <div className="grid grid-cols-2 gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/BMLSAA22"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors"
@@ -238,7 +238,7 @@ const ContactSection = () => {
                 </a>
                 
                 <a
-                  href="mailto:alex@example.com"
+                  href="mailto:amayasbourahla46@gmail.com"
                   className="flex items-center gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors"
                 >
                   <Mail size={20} />

@@ -18,12 +18,26 @@ const ExperienceSection = () => {
   const [animated, setAnimated] = useState(false);
 
   const experiences: Experience[] = [
+
     {
       id: 1,
-      company: "Tech Innovations AI",
-      position: "Senior AI Engineer",
-      location: "San Francisco, CA",
-      period: "2023 - Present",
+      company: "University of BOUMERDES",
+      position: "PhD Student",
+      location: "Boumerdes , algeria",
+      period: "JAN 2025 - present ",
+      description: [
+        "Conducted research on novel graph neural network architectures for routing in dynamic networks, resulting in 2 patents and 3 peer-reviewed publications.",
+        "Developed a simulation framework for testing UAV networking algorithms that is now used by multiple research groups.",
+        "Collaborated with interdisciplinary teams to apply ML techniques to solve complex routing problems in aerospace systems."
+      ],
+      logo: "https://www.bing.com/images/search?view=detailV2&ccid=O5pAkoAl&id=4377D3C5766D516E065582E707DEC62F0CB50ED7&thid=OIP.O5pAkoAlCSbH-DDkss8W4AHaHa&mediaurl=https%3a%2f%2fyt3.ggpht.com%2fa%2fAATXAJxzbG5G8HFG8-9wolCTN-5ZNMnggDXjA_4x9QKj%3ds900-c-k-c0xffffffff-no-rj-mo&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3b9a409280250926c7f830e4b2cf16e0%3frik%3d1w61DC%252fG3gfngg%26pid%3dImgRaw%26r%3d0&exph=900&expw=900&q=universit%c3%a9+boumerdes+logo&simid=608022453682245269&FORM=IRPRST&ck=36139EF0643D89BA84A330D13BB84BC7&selectedIndex=0&itb=0"
+    },
+    {
+      id: 2,
+      company: "CASNOS",
+      position: "AI Engineer",
+      location: "Algiers",
+      period: "May 2024 - Present",
       description: [
         "Leading the development of a computer vision system for autonomous drones that can detect and respond to environmental hazards in real-time.",
         "Designed and implemented a distributed ML pipeline that improved model training time by 45% and reduced inference latency by 30%.",
@@ -32,24 +46,11 @@ const ExperienceSection = () => {
       logo: "bg-gradient-to-br from-purple-500/20 to-purple-700/20"
     },
     {
-      id: 2,
-      company: "DataSense Research",
-      position: "Research Scientist",
-      location: "Boston, MA",
-      period: "2021 - 2023",
-      description: [
-        "Conducted research on novel graph neural network architectures for routing in dynamic networks, resulting in 2 patents and 3 peer-reviewed publications.",
-        "Developed a simulation framework for testing UAV networking algorithms that is now used by multiple research groups.",
-        "Collaborated with interdisciplinary teams to apply ML techniques to solve complex routing problems in aerospace systems."
-      ],
-      logo: "bg-gradient-to-br from-blue-500/20 to-blue-700/20"
-    },
-    {
       id: 3,
-      company: "Global AI Solutions",
-      position: "ML Engineer",
-      location: "Seattle, WA",
-      period: "2019 - 2021",
+      company: "CASNOS",
+      position: "AI Intern",
+      location: "Algiers",
+      period: "JAN 2024 - MAY 2024",
       description: [
         "Built and deployed production machine learning models for natural language processing and recommendation systems.",
         "Optimized deep learning models for edge deployment, achieving 4x speedup while maintaining accuracy.",
@@ -59,30 +60,18 @@ const ExperienceSection = () => {
     },
     {
       id: 4,
-      company: "Quantum Computing Lab",
-      position: "Research Assistant",
-      location: "Cambridge, UK",
-      period: "2018 - 2019",
+      company: "NAFTAL spa",
+      position: "AI Intern",
+      location: "Tizi ouzou",
+      period: "sept 2022",
       description: [
-        "Assisted in research on quantum algorithms for optimization problems relevant to network routing.",
-        "Implemented simulations of quantum algorithms and compared performance with classical approaches.",
-        "Co-authored a conference paper on potential applications of quantum computing in network optimization."
+        "Built and deployed production machine learning models for natural language processing and recommendation systems.",
+        "Optimized deep learning models for edge deployment, achieving 4x speedup while maintaining accuracy.",
+        "Implemented CI/CD pipelines for ML models, ensuring consistent quality and performance across deployments."
       ],
-      logo: "bg-gradient-to-br from-orange-500/20 to-orange-700/20"
+      logo: "bg-gradient-to-br from-green-500/20 to-green-700/20"
     },
-    {
-      id: 5,
-      company: "National Science Foundation",
-      position: "Summer Research Fellow",
-      location: "Washington, DC",
-      period: "Summer 2018",
-      description: [
-        "Conducted research on machine learning applications in wireless communication networks.",
-        "Developed new algorithms for spectrum sensing and allocation using reinforcement learning.",
-        "Presented findings at the NSF Graduate Research Symposium."
-      ],
-      logo: "bg-gradient-to-br from-red-500/20 to-red-700/20"
-    }
+   
   ];
 
   useEffect(() => {

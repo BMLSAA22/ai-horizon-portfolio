@@ -109,7 +109,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.8, type: "spring", stiffness: 200 }}
             >
-              Alex
+              Amayas
             </motion.span>
           </h1>
           
@@ -138,7 +138,7 @@ const HeroSection = () => {
             transition={{ duration: 0.5, delay: 1.4 }}
           >
             <motion.a 
-              href="#" 
+              href="https://drive.google.com/file/d/1Q0xctTBFyDow-XoWusluDgQXwhI31ut6/view?usp=drive_link" 
               className="button-gradient px-6 py-3 rounded-lg shadow-lg flex items-center justify-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

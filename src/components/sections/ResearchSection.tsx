@@ -43,7 +43,7 @@ const ResearchSection = () => {
                       P
                     </div>
                     <div>
-                      <p className="font-medium">Prof. Jane Smith</p>
+                      <p className="font-medium">Prof. xxxx</p>
                       <p className="text-sm text-muted-foreground">Primary Advisor</p>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ const ResearchSection = () => {
                       C
                     </div>
                     <div>
-                      <p className="font-medium">Dr. Michael Johnson</p>
+                      <p className="font-medium">Dr xxxx</p>
                       <p className="text-sm text-muted-foreground">Co-Advisor</p>
                     </div>
                   </div>
@@ -103,93 +103,77 @@ const ResearchSection = () => {
               </p>
             </div>
             
-            <div className="card-border rounded-xl p-6 bg-card animate-slide-up opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
-              <h3 className="text-xl font-semibold mb-4">Research Highlights</h3>
-              
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">
-                    1
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-1">Novel GNN Architecture</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Developed a specialized graph neural network architecture that captures the unique spatial and temporal dynamics of UAV networks, handling node mobility and link instability.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">
-                    2
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-1">Multi-Objective Optimization</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Implemented a reinforcement learning framework that optimizes for multiple competing objectives: network throughput, latency, energy efficiency, and reliability.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">
-                    3
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-1">Real-world Validation</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Tested the algorithm in real-world experiments using a fleet of modified drones, demonstrating 35% improved network reliability and 28% reduced latency over baseline methods.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">
-                    4
-                  </div>
-                  <div>
-                    <h4 className="font-medium mb-1">Theoretical Contributions</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Established formal bounds on the performance of learning-based routing algorithms in dynamic topologies, providing theoretical guarantees on convergence and optimality.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h3 className="text-xl font-semibold mb-4">Research Highlights</h3>
+
+<div className="space-y-6">
+  <div className="flex gap-4">
+    <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">1</div>
+    <div>
+      <h4 className="font-medium mb-1">Exploratory Design of GNN Architecture</h4>
+      <p className="text-muted-foreground text-sm">
+        Currently designing a specialized GNN architecture tailored for modeling UAV network topologies and mobility patterns.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex gap-4">
+    <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">2</div>
+    <div>
+      <h4 className="font-medium mb-1">Multi-Objective Framework</h4>
+      <p className="text-muted-foreground text-sm">
+        Developing a framework that considers key performance indicators such as latency, energy usage, and connectivity stability.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex gap-4">
+    <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">3</div>
+    <div>
+      <h4 className="font-medium mb-1">Simulation-based Validation</h4>
+      <p className="text-muted-foreground text-sm">
+        Planning to conduct extensive simulations using tools like NS-3 or custom environments to validate the proposed models.
+      </p>
+    </div>
+  </div>
+
+  <div className="flex gap-4">
+    <div className="w-12 h-12 rounded-full bg-primary/10 shrink-0 flex-center text-primary font-bold">4</div>
+    <div>
+      <h4 className="font-medium mb-1">Theoretical Foundations</h4>
+      <p className="text-muted-foreground text-sm">
+        Working on building the theoretical foundation for learning-based routing performance in dynamic, decentralized networks.
+      </p>
+    </div>
+  </div>
+</div>
+
             
             <div className="card-border rounded-xl p-6 bg-card animate-slide-up opacity-0" style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}>
-              <h3 className="text-xl font-semibold mb-4">Publications</h3>
+              <h3 className="text-xl font-semibold mb-4">Upcoming Publications</h3>
               
               <div className="space-y-4">
                 <div className="p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors cursor-pointer">
-                  <p className="font-medium mb-1">Adaptive Routing in UAV Networks Using Graph Neural Networks</p>
-                  <p className="text-sm text-muted-foreground mb-2">IEEE Transactions on Networking, 2025</p>
+                  <p className="font-medium mb-1">Information Extraction from medical documents</p>
+                  <p className="text-sm text-muted-foreground mb-2">Following my master thesis i am preparing to publish a research paper to document out innovative approach</p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">GNN</span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">OCR</span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Documents</span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Transformers</span>
+                  </div>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors cursor-pointer">
+                  <p className="font-medium mb-1">Comparative Survey about the state of the art in the field of routing in ad hoc networks</p>
+                  <p className="text-sm text-muted-foreground mb-2">In the cadre of my phD thesis </p>
+                  <div className="flex flex-wrap gap-2">
+                  <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">FANET</span>
                     <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Routing</span>
                     <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">UAV</span>
+                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Ad hoc</span>
                   </div>
                 </div>
                 
-                <div className="p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors cursor-pointer">
-                  <p className="font-medium mb-1">Energy-Aware Path Planning for UAV Swarms with Deep Reinforcement Learning</p>
-                  <p className="text-sm text-muted-foreground mb-2">International Conference on Robotics and Automation (ICRA), 2024</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">RL</span>
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Path Planning</span>
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Energy</span>
-                  </div>
-                </div>
-                
-                <div className="p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors cursor-pointer">
-                  <p className="font-medium mb-1">Performance Bounds for Learning-Based Network Routing in Dynamic Topologies</p>
-                  <p className="text-sm text-muted-foreground mb-2">ACM SIGCOMM, 2023</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Theory</span>
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Networking</span>
-                    <span className="text-xs px-2 py-1 rounded-full bg-primary/10 text-primary">Algorithms</span>
-                  </div>
-                </div>
+
               </div>
               
               <button className="w-full mt-4 py-2 text-primary hover:text-primary/80 transition-colors text-sm">

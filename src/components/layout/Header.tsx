@@ -52,7 +52,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#home" className="text-xl font-bold text-gradient-static">
-          Alex.AI
+          Amayas
         </a>
 
         {/* Desktop Navigation */}

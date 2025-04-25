@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <span className="text-gradient-static font-bold text-xl">Alex.AI</span>
+            <span className="text-gradient-static font-bold text-xl">Amayas</span>
             <p className="text-muted-foreground mt-2">
               Building Intelligent Systems for a Smarter Future
             </p>
@@ -15,7 +15,7 @@ const Footer = () => {
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/bmslaa22" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-tech-purple transition-colors"
@@ -24,7 +24,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://linkedin.com/bourahlaamayas" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-tech-purple transition-colors"
@@ -42,7 +42,7 @@ const Footer = () => {
               <Twitter size={20} />
             </a>
             <a 
-              href="mailto:hello@example.com" 
+              href="mailto:amayasbourahla46@gmail.com" 
               className="text-foreground/70 hover:text-tech-purple transition-colors"
               aria-label="Email"
             >
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-6 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Alex.AI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BOURAHLA Amayas. All rights reserved.</p>
           <p className="mt-1">AI Engineer & PhD Researcher in Strategic Routing for UAV Ad Hoc Networks</p>
         </div>
       </div>

@@ -3,10 +3,10 @@ import { Award, BookOpen, Briefcase, User } from "lucide-react";
 
 const AboutSection = () => {
   const stats = [
-    { label: "Years Experience", value: "5+" },
-    { label: "Publications", value: "12" },
-    { label: "Projects Completed", value: "30+" },
-    { label: "Conferences", value: "8" },
+    { label: "Engineering Experience", value: "2+ Years" },
+    { label: "AI Projects Completed", value: "15+" },
+    { label: "Research Papers Started", value: "1 year" },
+    { label: "Tech Stack Expertise", value: "10+ Tools" },
   ];
 
   return (
@@ -55,7 +55,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">My Experience</h3>
                 <p className="text-muted-foreground">
-                  Over 5 years of experience developing AI solutions for various domains including computer vision, natural language processing, and edge computing. Worked with leading tech companies and research institutions.
+                  Over 1.5 years of experience developing AI solutions for various domains including computer vision, natural language processing, and edge computing. Worked with leading tech companies and research institutions.
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Achievements</h3>
                 <p className="text-muted-foreground">
-                  Published in top-tier AI conferences and journals. Recipient of the Young Researcher Award and various academic scholarships. Developed multiple open-source AI libraries used by thousands of developers.
+                I am an AI Engineer and Data Scientist with a strong foundation in image processing, NLP, OCR, and graph neural networks. Throughout my academic and professional journey, I’ve consistently worked at the intersection of research and practical AI applications.
                 </p>
               </div>
             </div>
