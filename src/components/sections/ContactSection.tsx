@@ -184,7 +184,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground mb-1">Phone Number</h4>
                     <a href="tel:+1234567890" className="text-foreground hover:text-primary transition-colors">
-                      +213 (549) 893-705
+                    +33 7 75 78 79 14
                     </a>
                   </div>
                 </div>
@@ -196,7 +196,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="text-sm font-medium text-muted-foreground mb-1">Location</h4>
                     <p className="text-foreground">
-                     Ain Naadja ,Algiers
+                      Paris, France
                     </p>
                   </div>
                 </div>

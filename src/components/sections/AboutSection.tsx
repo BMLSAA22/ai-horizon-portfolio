@@ -31,7 +31,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">Who I Am</h3>
                 <p className="text-muted-foreground">
-                  I'm an AI Engineer with a passion for developing intelligent systems that solve real-world problems. Currently pursuing a PhD in Strategic Routing for UAV Ad Hoc Networks, I combine academic research with practical engineering to push the boundaries of what's possible with AI.
+                  I'm an AI Engineer with a passion for developing intelligent systems that solve real-world problems.2 years of experience in AI development, research, and deployment across various industries.Also working with international clients to deliver cutting-edge AI solutions.
                 </p>
               </div>
             </div>
@@ -43,7 +43,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">My Education</h3>
                 <p className="text-muted-foreground">
-                  PhD in Computer Science (in progress) with focus on AI for UAV networks. Previously completed an MSc in Artificial Intelligence and a BSc in Computer Science with first-class honors.
+                  Master & Graduate Program in Artificial Intelligence from the University paris est Creteil.Engineering degree from Computer Science high school in AI & Data science.
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-xl font-semibold mb-2">My Experience</h3>
                 <p className="text-muted-foreground">
-                  Over 1.5 years of experience developing AI solutions for various domains including computer vision, natural language processing, and edge computing. Worked with leading tech companies and research institutions.
+                  Over 2years of experience developing AI solutions for various domains including computer vision, natural language processing, and edge computing. Worked with leading tech companies and research institutions.
                 </p>
               </div>
             </div>
@@ -77,10 +77,12 @@ const AboutSection = () => {
             <div className="rounded-2xl overflow-hidden shadow-xl card-border p-1">
               <div className="bg-background dark:bg-tech-deep-blue rounded-2xl overflow-hidden p-8">
                 <div className="aspect-square w-full rounded-xl bg-gradient-to-br from-primary/5 to-secondary/10 flex items-center justify-center overflow-hidden relative">
-                  {/* Profile Image Placeholder - Replace with actual image */}
-                  <div className="w-4/5 h-4/5 rounded-full bg-gradient-to-br from-tech-purple/30 to-tech-blue/30 flex items-center justify-center text-6xl font-bold text-gradient">
-                    A
-                  </div>
+                  {/* Profile Image */}
+                  <img 
+                    src="/profile.jpg" 
+                    alt="Amayas Bourahla" 
+                    className="w-full h-full object-cover rounded-xl"
+                  />
                   
                   {/* Abstract decorative elements */}
                   <div className="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-tech-purple/10 animate-float" style={{ animationDelay: "0s" }}></div>

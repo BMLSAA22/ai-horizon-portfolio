@@ -18,6 +18,19 @@ const ExperienceSection = () => {
   const [animated, setAnimated] = useState(false);
 
   const experiences: Experience[] = [
+    {
+      id: 1,
+      company: "Université Paris-Est Créteil (UPEC)",
+      position: "Master's Student in AI & Data Science",
+      location: "Créteil, France",
+      period: "SEP 2025 - present",
+      description: [
+        "Pursuing Master 2 in Artificial Intelligence, Data Science & Cyber-Physical Systems with focus on MLOps and distributed systems.",
+        "Specializing in deep learning architectures, computer vision, and natural language processing for real-world applications.",
+        "Working on research projects involving Physics-Informed Neural Networks and advanced numerical methods for computational mechanics."
+      ],
+      logo: "upec.jfif"
+    },
 
     {
       id: 1,
@@ -30,20 +43,20 @@ const ExperienceSection = () => {
         "Developed a simulation framework for testing UAV networking algorithms that is now used by multiple research groups.",
         "Collaborated with interdisciplinary teams to apply ML techniques to solve complex routing problems in aerospace systems."
       ],
-      logo: "https://www.bing.com/images/search?view=detailV2&ccid=O5pAkoAl&id=4377D3C5766D516E065582E707DEC62F0CB50ED7&thid=OIP.O5pAkoAlCSbH-DDkss8W4AHaHa&mediaurl=https%3a%2f%2fyt3.ggpht.com%2fa%2fAATXAJxzbG5G8HFG8-9wolCTN-5ZNMnggDXjA_4x9QKj%3ds900-c-k-c0xffffffff-no-rj-mo&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3b9a409280250926c7f830e4b2cf16e0%3frik%3d1w61DC%252fG3gfngg%26pid%3dImgRaw%26r%3d0&exph=900&expw=900&q=universit%c3%a9+boumerdes+logo&simid=608022453682245269&FORM=IRPRST&ck=36139EF0643D89BA84A330D13BB84BC7&selectedIndex=0&itb=0"
+      logo: "/umbb.png"
     },
     {
       id: 2,
       company: "CASNOS",
       position: "AI Engineer",
       location: "Algiers",
-      period: "May 2024 - Present",
+      period: "May 2024 - Sep 2025",
       description: [
         "Leading the development of a computer vision system for autonomous drones that can detect and respond to environmental hazards in real-time.",
         "Designed and implemented a distributed ML pipeline that improved model training time by 45% and reduced inference latency by 30%.",
         "Mentoring junior engineers and interns on best practices in AI development and deployment."
       ],
-      logo: "bg-gradient-to-br from-purple-500/20 to-purple-700/20"
+      logo: "casnos.png"
     },
     {
       id: 3,
@@ -56,7 +69,7 @@ const ExperienceSection = () => {
         "Optimized deep learning models for edge deployment, achieving 4x speedup while maintaining accuracy.",
         "Implemented CI/CD pipelines for ML models, ensuring consistent quality and performance across deployments."
       ],
-      logo: "bg-gradient-to-br from-green-500/20 to-green-700/20"
+      logo: "casnos.png"
     },
     {
       id: 4,
@@ -69,7 +82,7 @@ const ExperienceSection = () => {
         "Optimized deep learning models for edge deployment, achieving 4x speedup while maintaining accuracy.",
         "Implemented CI/CD pipelines for ML models, ensuring consistent quality and performance across deployments."
       ],
-      logo: "bg-gradient-to-br from-green-500/20 to-green-700/20"
+      logo: "naftal.webp"
     },
    
   ];
@@ -125,8 +138,12 @@ const ExperienceSection = () => {
                   }}
                   onClick={() => setActiveIndex(index)}
                 >
-                  <div className={`w-12 h-12 rounded-lg ${exp.logo} shrink-0 flex-center mr-4`}>
-                    <span className="font-bold text-foreground">{exp.company.charAt(0)}</span>
+                  <div className="w-12 h-12 rounded-lg shrink-0 flex items-center justify-center mr-4 bg-background dark:bg-tech-deep-blue overflow-hidden">
+                    <img 
+                      src={exp.logo} 
+                      alt={`${exp.company} logo`}
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                   
                   <div className="flex flex-col">
