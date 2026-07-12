@@ -53,7 +53,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-6 border-t border-border text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} BOURAHLA Amayas. All rights reserved.</p>
-          <p className="mt-1">AI Engineer & PhD Researcher in Strategic Routing for UAV Ad Hoc Networks</p>
+          <p className="mt-1">AI Engineer & Cloud Consultant</p>
         </div>
       </div>
     </footer>

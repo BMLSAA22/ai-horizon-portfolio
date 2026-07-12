@@ -19,6 +19,32 @@ const ExperienceSection = () => {
 
   const experiences: Experience[] = [
     {
+      id: 0,
+      company: "Devoteam",
+      position: "Cloud & AI Consultant",
+      location: "France",
+      period: "2025 - present",
+      description: [
+        "Architected and developed a self-healing cloud infrastructure that automatically detects, diagnoses, and remediates system failures without human intervention.",
+        "Designing and implementing scalable cloud-native applications using Infrastructure as Code (Terraform) and CI/CD best practices.",
+        "Delivering cloud architecture and AI solutions for enterprise clients, leveraging AWS and modern data engineering practices."
+      ],
+      logo: "/devoteam.jpg"
+    },
+    {
+      id: 10,
+      company: "Veolia (via Devoteam)",
+      position: "Cloud & Data Engineer",
+      location: "France",
+      period: "2025 - present",
+      description: [
+        "Designed and implemented a self-healing architecture for Veolia's cloud platform, enabling automatic detection and recovery from infrastructure failures and performance degradation.",
+        "Built intelligent monitoring and auto-remediation pipelines that reduced incident response time and improved overall system availability.",
+        "Developed scalable AWS-based data pipelines for processing environmental and operational data with automated failover mechanisms."
+      ],
+      logo: "/veolia.png"
+    },
+    {
       id: 1,
       company: "Université Paris-Est Créteil (UPEC)",
       position: "Master's Student in AI & Data Science",
@@ -35,13 +61,13 @@ const ExperienceSection = () => {
     {
       id: 1,
       company: "University of BOUMERDES",
-      position: "PhD Student",
-      location: "Boumerdes , algeria",
-      period: "JAN 2025 - present ",
+      position: "Researcher",
+      location: "Boumerdes, Algeria",
+      period: "JAN 2025 - present",
       description: [
-        "Conducted research on novel graph neural network architectures for routing in dynamic networks, resulting in 2 patents and 3 peer-reviewed publications.",
-        "Developed a simulation framework for testing UAV networking algorithms that is now used by multiple research groups.",
-        "Collaborated with interdisciplinary teams to apply ML techniques to solve complex routing problems in aerospace systems."
+        "Conducting research on intelligent routing algorithms for UAV Ad Hoc Networks using Graph Neural Networks and Reinforcement Learning.",
+        "Developing simulation frameworks for testing UAV networking algorithms in dynamic environments.",
+        "Collaborating with interdisciplinary teams to apply ML techniques to solve complex routing problems in aerospace systems."
       ],
       logo: "/umbb.png"
     },
@@ -139,11 +165,15 @@ const ExperienceSection = () => {
                   onClick={() => setActiveIndex(index)}
                 >
                   <div className="w-12 h-12 rounded-lg shrink-0 flex items-center justify-center mr-4 bg-background dark:bg-tech-deep-blue overflow-hidden">
-                    <img 
-                      src={exp.logo} 
-                      alt={`${exp.company} logo`}
-                      className="w-full h-full object-contain"
-                    />
+                    {exp.logo ? (
+                      <img 
+                        src={exp.logo} 
+                        alt={`${exp.company} logo`}
+                        className="w-full h-full object-contain"
+                      />
+                    ) : (
+                      <span className="font-bold text-lg text-primary">{exp.company.charAt(0)}</span>
+                    )}
                   </div>
                   
                   <div className="flex flex-col">

@@ -6,6 +6,7 @@ import SkillsSection from "@/components/sections/SkillsSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import ResearchSection from "@/components/sections/ResearchSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
+import CertificationsSection from "@/components/sections/CertificationsSection";
 import ContactSection from "@/components/sections/ContactSection";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import { useEffect } from "react";
@@ -27,6 +28,7 @@ const Index = () => {
       <ProjectsSection />
       <ResearchSection />
       <ExperienceSection />
+      <CertificationsSection />
       <ContactSection />
       <ScrollToTop />
     </Layout>
